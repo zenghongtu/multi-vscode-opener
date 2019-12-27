@@ -9,8 +9,15 @@
     "mvo": "lib/cli.js"
   },
   "scripts": {
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "release": "npm publish --access=public"
   },
+  "files": [
+    "lib"
+  ],
+  "description": "A command line tool to open VSCode with stand-alone user data and extensions",
   "dependencies": {
     "@types/inquirer": "^6.5.0",
     "commander": "^4.0.1",

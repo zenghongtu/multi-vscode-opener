@@ -1,0 +1,15 @@
+{
+  "name": "multi-vscode-opener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zenghongtu/multi-vscode-opener.git",
+  "author": "zenghongtu <zenghongtu@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "mvo": "lib/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "tsc -w"
+  }
+}

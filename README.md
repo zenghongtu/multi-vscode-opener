@@ -12,6 +12,8 @@ You can also run `npx multi-vscode-opener` to use it directly.
 
 ## Usage
 
+![preview](assets/preview.gif)
+
 ```sh
 mvo
 ```

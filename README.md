@@ -4,7 +4,7 @@ multi-vscode-opener is a command line tool to open VSCode with stand-alone user 
 
 ## Installation
 
-```sh
+```bash
 npm install -g multi-vscode-opener
 ```
 
@@ -12,9 +12,7 @@ You can also run `npx multi-vscode-opener` to use it directly.
 
 ## Usage
 
-![preview](assets/preview.gif)
-
-```sh
+```bash
 mvo
 ```
 
@@ -22,9 +20,11 @@ This command will list all config for VSCode (stand-alone user data and extensio
 
 To use a specific config, run:
 
-```sh
+```bash
 mvo [config name]
 ```
+
+![preview](assets/preview.gif)
 
 ## License
 

@@ -1,31 +1,30 @@
 {
-  "name": "multi-vscode-opener",
-  "version": "1.0.1",
-  "main": "lib/index.js",
-  "repository": "git@github.com:zenghongtu/multi-vscode-opener.git",
-  "author": "zenghongtu <zenghongtu@gmail.com>",
-  "license": "MIT",
-  "bin": {
-    "mvo": "lib/cli.js"
-  },
-  "scripts": {
-    "dev": "tsc -w",
-    "build": "tsc",
-    "prepublishOnly": "npm run build",
-    "release": "npm publish --access=public"
-  },
-  "files": [
-    "lib"
-  ],
-  "description": "A command line tool to open VSCode with stand-alone user data and extensions",
-  "dependencies": {
-    "@types/inquirer": "^6.5.0",
-    "commander": "^4.0.1",
-    "inquirer": "^7.0.1"
-  },
-  "devDependencies": {
-    "@types/commander": "^2.12.2",
-    "@types/node": "^13.1.1",
-    "typescript": "^3.7.4"
-  }
+	"name": "multi-vscode-opener",
+	"version": "1.1.0",
+	"main": "lib/index.js",
+	"repository": "git@github.com:zenghongtu/multi-vscode-opener.git",
+	"author": "zenghongtu <zenghongtu@gmail.com>",
+	"license": "MIT",
+	"bin": {
+		"mvo": "lib/cli.js"
+	},
+	"scripts": {
+		"dev": "tsc -w",
+		"build": "tsc",
+		"prepublishOnly": "npm run build",
+		"release": "npm publish --access=public"
+	},
+	"files": [
+		"lib"
+	],
+	"description": "A command line tool to open VSCode with stand-alone user data and extensions",
+	"dependencies": {
+		"commander": "^9.4.0",
+		"inquirer": "^8.2.4"
+	},
+	"devDependencies": {
+		"@types/inquirer": "^8.2.1",
+		"@types/node": "^18.0.6",
+		"typescript": "^4.7.4"
+	}
 }
